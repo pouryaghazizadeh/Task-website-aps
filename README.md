@@ -62,6 +62,8 @@ http://localhost:6200/
 
 #### your home page should have **image**,**title**,**description**
 
+### page not found
+#### make simple page that if client go to the wrong rout see this page and he/her come back to home page
 ### todo page
 
 #### on todo app you should make input for add card todo also use **redux**.
