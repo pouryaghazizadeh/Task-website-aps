@@ -1,0 +1,31 @@
+{
+  "name": "Task-website-aps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Backend/lib/server.js",
+  "scripts": {
+    "server": "nodemon Backend/lib/server.js",
+    "client": "npm start --prefix Frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouryaghazizadeh/Task-website-aps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pouryaghazizadeh/Task-website-aps/issues"
+  },
+  "homepage": "https://github.com/pouryaghazizadeh/Task-website-aps#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
