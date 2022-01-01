@@ -33,11 +33,11 @@ npm i
 npm install
 ```
 
-#### for make react app on Front end folder
+
 
 ### Home page
 
-#### you should make Home page and get data from Backend.you must get data with **redux** and **axios**.
+#### you should make Home page and get data from Backend.you must get data with **redux-thunk** and **axios**.
 
 #### this is your url for your **data home page**
 
@@ -65,7 +65,7 @@ http://localhost:6200/
 #### your home page should have **image**,**title**,**description**
 
 ### page not found
-#### make simple page that if client go to the wrong rout see this page and him/her come back to home page
+#### make simple page that if client go to the wrong rout see this page and they come back to home page
 ### todo page
 
 #### on todo app you should make input for add card todo also use **redux**.
