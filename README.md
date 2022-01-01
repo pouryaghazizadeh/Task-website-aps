@@ -28,7 +28,9 @@
 #### pleas go to front end folder and write
 
 ```bash
-npx create-react-app
+npm i
+# or 
+npm install
 ```
 
 #### for make react app on Front end folder
