@@ -1,41 +1,59 @@
 # Task-website-aps
 
-# Welcome to this project
+# Welcome to this project.
 
-### your assignment is to make a simple to-do app on the front end. your website must have a Home page, a todo page, a page not found, also a simple navbar to access to links.
+### Your assignment is to make a simple to-do app on the front-end. Your website must have a Home page, a to-do page, a page not found and login page also a simple navbar to access to route(pages).
 
-## note:all pages must be responsive.
+---
 
-## you should make website with React.js.
+r
+
+### `Note:`all pages must be **`responsive`** and **`first mobile`**.
+
+---
+
+### you should make website with React.js ,Redux-toolkit and for style use mui for more information about mui check this link.
+
+### [website mui](https://mui.com/)
+
+### [website Redux-toolkit](https://redux-toolkit.js.org/)
+
+---
 
 ### you must use some package on your app.
 
-    ## react-router-dom (version 6)
-    ## material ui for style
-    ## axios
-    ## redux
-    ## react-redux for data flow manage
-    ## if you need middleware for redux use redux-thunk
+| packages         | version |
+| ---------------- | ------- |
+| react-router-dom | `6`     |
+| material ui      | `5`     |
+| axios            |         |
+| redux-toolkit    |         |
 
-## on your app
+---
 
-### Back end
+## on your app:
 
-#### you can see two folders **Backend** and **Frontend**.on the Backend folder is a simple data and send it to URL that you fetch them so don't go to **Backend folder**
+### you must use **`yarn`** for your package manager.check the website yarn.
+
+### [website yarn](https://yarnpkg.com/)
+
+---
+
+## Back-end folder
+
+#### you can see in root two folders **Backend** and **Frontend**.on the Backend folder is a simple data and send it to URL that you fetch them so don't go to **Backend folder**
 
 ### Front end
 
 #### pleas go to front end folder and write
 
 ```bash
-npm i
-# or 
-npm install
+yarn
 ```
 
+---
 
-
-### Home page
+## about Home page
 
 #### you should make Home page and get data from Backend.you must get data with **redux-thunk** and **axios**.
 
@@ -47,39 +65,52 @@ http://localhost:6200/
 
 ## note:
 
-### for get data from this URL you must run Backend so please go to
+### for get data from this URL you must run Backend so please go to root project and write:
 
 ```bash
-  # folder
-  Task-website-aps
-  # write
-  npm i
-  #or write
-  npm install
-  # after that for run backend and front end in same time write
-  npm run dev
-  #if you want run just backend write
-  npm run server
+yarn
 ```
 
-#### your home page should have **image**,**title**,**description**
+#### after that for run backend and front end at same time write:
+
+```bash
+  yarn run dev
+  #if you want run just backend write
+  yarn run server   #in root
+
+```
+
+### Your home page should have **image**,**title**,**description**
+
+### `Note:` you muse get data with `redux-toolkit`
+
+---
 
 ### page not found
-#### make simple page that if client go to the wrong rout see this page and they come back to home page
+
+#### Make a simple page that if clients go to the wrong route see this page and they come back to the home page with a button
+
+---
+
 ### todo page
 
-#### on todo app you should make input for add card todo also use **redux**.
+#### on todo app you should make input for add card todo also use **`redux-toolkit`**.
 
 #### every todo card must have:
 
     ## edit button
     ## delete button
 
-#### also you must have a button for delete all todo card
-
+### You must have a button for delete all todo card.
+---
 ## don't forget write comment on your code
-## please write for me in Front end folder a readme file that how i run your app
-## you have two weeks to finish the task also up-skills in every you need learn. after that, we choose you are ready to work with us or not.
-## if you have any problem don't be shy.
+---
+ ## your component must be **` Reuseable `** component if you don`t know about this ask in homework groupe or ask me.
+---
+## please write for me in the  Frontend folder a **`Documentation`**  in the readme file  how to get started  with your project and explain about your website and component how your component work. 
+---
+## you have two weeks to finish the task also up-skills in everything you need to  learn. after that, we choose you are ready to work with us or not.
+---
+## if you have any problem or question don't be shy.
+---
 # good luck :)
-
