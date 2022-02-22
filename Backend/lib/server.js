@@ -16,6 +16,6 @@ app.get("/", (req, res) => {
   res.send(homeData);
 });
 
-app.listen(process.env.PORT || 6200, () => {
-  console.log(`app run on port ${process.env.PORT}`);
+app.listen( 6200, () => {
+  console.log(`app run on port 6200`);
 });
