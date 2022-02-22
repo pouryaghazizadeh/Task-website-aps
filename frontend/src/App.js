@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./component/pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>hi pourya Im shirin</h1>
+      <Home />
     </div>
   );
 }
