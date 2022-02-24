@@ -1,18 +1,18 @@
 # Task-website-aps
 
-# Welcome to this project.
+## Welcome to this project
 
-### Your assignment is to make a simple to-do app on the front-end. Your website must have a Home page, a to-do page, a page not found and login page also a simple navbar to access to route(pages).
+## Your assignment is to make a simple to-do app on the front-end. Your website must have a Home page, a to-do page, a page not found and login page also a simple navbar to access to route(pages)
 
 ---
 
 r
 
-### `Note:`all pages must be **`responsive`** and **`first mobile`**.
+### `Note:`all pages must be **`responsive`** and **`first mobile`**
 
 ---
 
-### you should make website with React.js ,Redux-toolkit and for style use mui for more information about mui check this link.
+### you should make website with React.js ,Redux-toolkit and for style use mui for more information about mui check this link
 
 ### [website mui](https://mui.com/)
 
@@ -102,15 +102,27 @@ yarn
     ## delete button
 
 ### You must have a button for delete all todo card.
+
 ---
+
 ## don't forget write comment on your code
+
 ---
- ## your component must be **` Reuseable `** component if you don`t know about this ask in homework groupe or ask me.
+
+## your component must be **`Reuseable`** component if you don`t know about this ask in homework groupe or ask me.
+
 ---
-## please write for me in the  Frontend folder a **`Documentation`**  in the readme file  how to get started  with your project and explain about your website and component how your component work. 
+
+## please write for me in the Frontend folder a **`Documentation`** in the readme file how to get started with your project and explain about your website and component how your component work.
+
 ---
-## you have two weeks to finish the task also up-skills in everything you need to  learn. after that, we choose you are ready to work with us or not.
+
+## you have two weeks to finish the task also up-skills in everything you need to learn. after that, we choose you are ready to work with us or not.
+
 ---
+
 ## if you have any problem or question don't be shy.
+
 ---
+
 # good luck :)
