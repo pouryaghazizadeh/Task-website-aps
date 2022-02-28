@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 // for redux
 import { useDispatch, useSelector } from "react-redux";
 import { getData } from "./homesSlice";
+import Container from "@mui/material/Container";
+import Paper from "@mui/material/Paper";
 
 function Homes() {
   const dispatch = useDispatch();
@@ -11,17 +13,17 @@ function Homes() {
     dispatch(getData());
   }, [dispatch]);
   return (
-    <div className="card-main">
+    <Container>
       {data.card.map(({ title, id, desc, img }) => {
         return (
-          <div className="card-home" key={id}>
+          <Paper key={id} elevation={3} square>
             <img src={img} alt={title} />
             <h2>{title}</h2>
             <p>{desc}</p>
-          </div>
+          </Paper>
         );
       })}
-    </div>
+    </Container>
   );
 }
 export default Homes;
