@@ -1,9 +1,22 @@
-
+import "./App.css";
+import Home from "./component/pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// pages
+import TodosPages from "./component/pages/TodosPages";
+import Course from "./component/pages/Course";
+import NotFound from "./component/pages/NotFound";
+import NavBar from "./component/NavBar";
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/todos" element={<TodosPages />} />
+        <Route path="/course" element={<Course />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
