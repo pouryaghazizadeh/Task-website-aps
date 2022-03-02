@@ -10,6 +10,7 @@ import { Box, CardContent, Typography } from "@mui/material";
 function Homes() {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.data);
+  console.log(data);
   console.log("it is data ", data);
   useEffect(() => {
     dispatch(getData());
