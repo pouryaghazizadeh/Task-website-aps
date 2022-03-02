@@ -23,4 +23,4 @@ yarn run start
 
 oh oh You have to be sure that backend is run (:
 
-ok bay ((((((;
+ok bay (((((((;
