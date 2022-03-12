@@ -31,18 +31,17 @@ export default function Todos() {
             onClick={() => {
               dispatch(edit({ index, text: getText }));
               setEditText(!editText);
+              setGetText("");
             }}
           >
             edit
           </Button>
 
-          {editText ? (
+          {editText && (
             <Input
               type="text"
               onChange={(e) => setGetText(e.target.value)}
             ></Input>
-          ) : (
-            ""
           )}
           {/* input for update text  */}
           {/* functionality delete item  */}

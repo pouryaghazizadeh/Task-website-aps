@@ -10,7 +10,8 @@ const todosSlice = createSlice({
     },
     edit(state, { payload: { index, text } }) {
       // index for which one selected , and text for edit text bcuase Object
-      state[index].text = text;
+      // state[index].text = text;
+      state.map((item) => (item.text = text));
     },
     delItem(state, { payload: index }) {
       // remove on li
