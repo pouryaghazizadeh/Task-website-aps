@@ -16,6 +16,6 @@ app.get("/", (req, res) => {
   res.send(homeData);
 });
 
-app.listen( 6200, () => {
+app.listen(6200, () => {
   console.log(`app run on port 6200`);
 });
