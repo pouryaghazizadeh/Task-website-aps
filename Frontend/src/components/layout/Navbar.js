@@ -1,21 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AppBar, Typography, Toolbar, Button, Container } from "@mui/material";
-// import { makeStyles } from "@mui/material/styles";
-
-// const useStyles = makeStyles((theme) => ({
-//   sectionDesktop: {
-//     display: "none",
-//     [theme.breakpoints.up("md")]: {
-//       display: "flex",
-//     },
-//   },
-// }));
 
 const Navbar = () => {
   return (
     <div>
-      <AppBar>
+      <AppBar sx={{ marginBottom: 5 }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
@@ -25,7 +15,7 @@ const Navbar = () => {
               component="div"
               sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
             >
-              APSignals
+              AP Signals
             </Typography>
             <div>
               <Button color="inherit" component={Link} to="/">

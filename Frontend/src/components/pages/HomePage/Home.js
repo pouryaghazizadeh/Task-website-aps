@@ -3,7 +3,7 @@ import React from "react";
 // import { Grid, Container, Typography, Box } from "@mui/material";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getDataHome } from "../../redux/homeSlice";
+import { getDataHome } from "../../../redux/homeSlice";
 
 const Home = () => {
   const dispatch = useDispatch();

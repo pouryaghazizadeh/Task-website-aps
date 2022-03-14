@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Box, Typography, TextField, Button, Container } from "@mui/material";
 import { useDispatch } from "react-redux";
-import { login } from "../fetures/userSlice";
+import { login } from "../../redux/userSlice";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -26,30 +27,49 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <form style={{ marginTop: 100 }} onSubmit={(e) => handleSubmit(e)}>
-        <h1>Login Here</h1>
-        <input
+    <Container>
+      <Box
+        component="form"
+        style={{ marginTop: 100 }}
+        onSubmit={(e) => handleSubmit(e)}
+      >
+        <Typography variant="h4" sx={{ m: 5 }}>
+          Login Here
+        </Typography>
+        <TextField
+          sx={{ display: "block", m: 2 }}
+          required
+          label="Name"
           type="text"
-          placeholder="Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <input
+        <TextField
+          sx={{ display: "block", m: 2 }}
+          required
+          label="Email"
           type="email"
-          placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <input
+        <TextField
+          sx={{ display: "block", m: 2 }}
+          required
+          label="Password"
           type="password"
-          placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Login</button>
-      </form>
-    </div>
+        <Button
+          variant="outlined"
+          size="small"
+          type="submit"
+          sx={{ fontSize: 20, m: 3 }}
+        >
+          Login
+        </Button>
+      </Box>
+    </Container>
   );
 };
 

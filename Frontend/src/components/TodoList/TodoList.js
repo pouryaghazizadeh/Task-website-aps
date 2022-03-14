@@ -10,7 +10,7 @@ const TodoList = () => {
   return (
     <List sx={{ width: "100%", maxWidth: 1100 }}>
       {todos.map((todo) => (
-        <TodoItem
+        <TodoItem 
           id={todo.id}
           key={todo.id}
           title={todo.title}

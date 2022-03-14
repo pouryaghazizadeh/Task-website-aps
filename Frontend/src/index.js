@@ -1,19 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import CssBaseline from "@mui/material/CssBaseline";
-// import { configureStore } from "@reduxjs/toolkit";
-// import galleryReducer from "./galleryState";
-
-// const store = configureStore({
-//   reducer: {
-//     gallery: galleryReducer,
-//   },
-// });
-
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,10 +1,7 @@
 import React, { useState } from "react";
+import { Container, TextField, Button, Box } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../../redux/todoSlice";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import TextField from "@mui/material/TextField";
-import TodoItem from "./TodoItem";
 import TodoList from "./TodoList";
 
 const AddTodoForm = () => {
@@ -21,9 +18,13 @@ const AddTodoForm = () => {
   };
 
   return (
-    <Box component="div" sx={{ display: "flex", marginTop: "100px" }}>
-      <form onSubmit={onSubmit}>
+    <Container
+      component="div"
+      sx={{ display: "flex", marginTop: "100px", maxWidth: 1100 }}
+    >
+      <Box component="form" onSubmit={onSubmit}>
         <TextField
+          sx={{ mr: 3 }}
           type="text"
           label="Add ToDo"
           value={value}
@@ -33,13 +34,13 @@ const AddTodoForm = () => {
           variant="outlined"
           size="small"
           type="submit"
-          sx={{ fontSize: 20, ml: 5, mt: 1 }}
+          sx={{ fontSize: 20, m: 1 }}
         >
           +
         </Button>
-      </form>
+      </Box>
       <TodoList />
-    </Box>
+    </Container>
   );
 };
 
