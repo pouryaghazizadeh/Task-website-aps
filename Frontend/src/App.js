@@ -4,7 +4,7 @@ import Navbar from "./components/layout/Navbar";
 import Login from "./components/login/Login";
 import NotFound from "./components/pages/NotFound";
 import AddTodoForm from "./components/TodoList/AddTodoForm";
-// import Home from "./components/pages/HomePage/Home";
+import Home from "./components/pages/HomePage/Home";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Container>
           <Navbar />
           <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<Home />} />
             <Route path="/todoList" element={<AddTodoForm />} />
             <Route path="/login" element={<Login />} />
             <Route path="*" element={<NotFound />} />
