@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+img {
+  margin: 10px;
+  object-fit: cover;
+}
+
+hr {
+  margin: 20px 25px;
+}
+
+.gallery {
+  margin: 0 5%;
+}

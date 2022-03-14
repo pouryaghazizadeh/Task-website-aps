@@ -1,12 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import CssBaseline from "@mui/material/CssBaseline";
+// import { configureStore } from "@reduxjs/toolkit";
+// import galleryReducer from "./galleryState";
 
-import App from './App';
+// const store = configureStore({
+//   reducer: {
+//     gallery: galleryReducer,
+//   },
+// });
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+      <CssBaseline />
+    </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
