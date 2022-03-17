@@ -6,7 +6,6 @@
   "scripts": {
     "server": "nodemon Backend/lib/server.js",
     "client": "npm start --prefix Frontend",
-  
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
@@ -21,8 +20,10 @@
   },
   "homepage": "https://github.com/pouryaghazizadeh/Task-website-aps#readme",
   "dependencies": {
+    "@mui/icons-material": "^5.5.0",
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
     "concurrently": "^6.5.1",
